@@ -1,7 +1,7 @@
 node() {
     stage('Setup') {
         java.jdk8()
-        github.clone('est-s3ninja')
+        github.clone('s3ninja')
     }
 
     stage('Build') {
